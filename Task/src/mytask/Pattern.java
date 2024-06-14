@@ -1,27 +1,43 @@
 package mytask;
-public class Pattern {
+public class Pattern 
+{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	static int i = 6;
+	static int s = 6;
+	static int r = 6;
 	
+	public static void main(String[] args) 
+	{
 		
 	
-		int i, s, r = 6;
+		Pattern.pat();
 		
-		for (i=0; i<r; i++)
-			
-		{
-		
-		for (s=0; s<=i; s++)
-			
-		{
-			
-		System.out.print("* ");
-		
-		}
-		
-		System.out.println();
 	}
+	
+	
+static void pat()
+	{
+
+
+
+	for (i=0; i<r; i++)
+
+		{
+
+		for (s=0; s<=i; s++)
+
+			{
+
+				System.out.print("* ");
+
+			}
+
+		System.out.println();
+
+
+		}
 
 }
+	
+	
 }
